@@ -16,6 +16,8 @@ def ticTacToe(board):
         return board[0][0]
     elif board[2][0] == board [1][1] == board[0][2]:
         return board[2][0]
+    else:
+        return ("tie")
 # testing
 board = [['X','O','O'],['O','X','O'],['X','O','X']]
 print(ticTacToe(board))
